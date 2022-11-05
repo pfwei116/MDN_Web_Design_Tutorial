@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href={{ url_for('static', filename='css/style.css')}} rel="stylesheet" />    <!-- CSS example by self define css -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" /> <!-- CSS example by using third part css -->
+  
+
+
+    <title>CDP 規劃</title>
+
+  </head>
+
+
+  <body>
+    
+    <p>   <!-- paragraphs  -->
+      本網頁紀錄一些 CDP的規劃想法   <br>建立日期 : 2022.10.13
+    </p>
+
+    <h1> Welcome !</h1>
+
+    <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics">MDN HTML</a>
+    <br>
+    <img src={{ url_for('static', filename='images/funny_pic1.jpg') }} alt="My test image" />   <!-- cover.jpg放置於 static/images/底下，故在 filename 裡加上 subfolder  -->
+    
+    <h3>資料來源</h3>   <!-- Unordered lists -->
+      <ul>
+        <li>APP</li>
+        <li>POS</li>
+        <li>EC</li>
+      </ul>
+
+    <h3>進度規劃</h3>   <!-- Ordered lists -->
+      <ol>
+        <li>各資料源整合至DC</li>
+        <li>各單位數據需求-報表類</li>
+      </ol>
+
+    <button>Change user</button>
+
+    <script 
+      src={{ url_for('static', filename="scripts/main.js") }} >
+    </script>      
+
+  </body>
+
+      
+</html>

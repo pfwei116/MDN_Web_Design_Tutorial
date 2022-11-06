@@ -4,8 +4,8 @@
 https://developer.mozilla.org/en-US/docs/Learn
 
 ## 目前進度
-https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Publishing_your_website
-(完成)
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started
+
 
 推薦閱讀在 github上發佈網站
 https://docs.github.com/en/pages/getting-started-with-github-pages
